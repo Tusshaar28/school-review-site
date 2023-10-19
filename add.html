@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Add School</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body class="bodytwo">
+    <header>
+      <img src="images\img.png" class="logo" alt="logo">
+      <nav>
+        <ul> 
+          <button onclick="window.location.href = 'index.html'">Logout</button>
+          <button onclick="window.location.href = 'add.html'">Add</button>
+          <button onclick="window.location.href = 'about.html'">About</button>
+          <button onclick="window.location.href = 'contact.html'">Contact</button>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="main-container white-box-2">
+      <h2 class="heading">Add Your School</h2>
+      <div class="form-and-images-container">
+          <img src="images\image5.jpeg" class="left-image">
+          <form method="post" action="add.php">
+              <div class="form-group">
+                  <label for="username"><p>School</p></label>
+                  <input type="text" id="username" name="username" placeholder="Enter school name">
+              </div>
+              <div class="form-group">
+                  <label for="pic"><p>  Picture </p>  </label>
+                  <input type="text" id="pic" name="pic" placeholder="Imgur link of school picture">
+              </div>
+              <div class="form-group">
+                  <label for="web"><p>Website</p> </label>
+                  <input type="text" id="web" name="web" placeholder="Enter school's website">
+              </div>
+              <div class="form-group1">
+                  <button type="submit">Submit</button>
+              </div>
+          </form>
+          <img src="images\image2.jpeg" class="right-image">
+      </div>
+  </div>
+  
+  
+    </div>
+  </body>
+</html>

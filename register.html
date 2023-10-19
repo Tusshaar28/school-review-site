@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="loginbody">
+    <header>
+        <img src="images\img.png" class="logo" alt="logo">
+        <nav>
+            <ul>
+                <button onclick="window.location.href = 'add.html'">Add</button>
+                <button onclick="window.location.href = 'about.html'">About</button>
+                <button onclick="window.location.href = 'contact.html'">Contact</button>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+        <div class="transparent-box">
+            <h2 class="heading">Register</h2>
+            <form method="post" action="register.php">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email  </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone </label>
+                    <input type="phone" id="phone" name="phone">
+                </div>
+                <div class="form-group1">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

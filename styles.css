@@ -1,0 +1,537 @@
+/*first box*/
+.transparent-box {
+    background-color: rgba(238, 231, 231, 0.636);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+}
+
+.transparent-box button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.big-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:60px;
+    background-color: transparent;
+}
+
+
+body {
+    background-image: url("https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#login-btn, #signup-btn {
+    margin: 0 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button-container {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading {
+    width:100%;
+    height:auto;
+    font-size: 53px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    display:block;
+}
+
+
+.form-group1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading1{
+    width:100%;
+    height:auto;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    display:block;
+}
+header {
+    margin-bottom: 40px;
+    }
+header button {
+    background-color: rgba(177, 186, 150, 0.518);
+    color:black;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out; 
+    border: 2px solid rgb(22, 22, 23);
+    border-radius: 20px;
+}
+header button:hover{
+    background-color: rgb(255, 255, 255); 
+}
+.navbar{
+    display: flex; 
+}
+
+
+
+.bodytwo{
+    background-image: url("https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"), linear-gradient(rgba(58, 40, 40, 0.73), rgba(0, 0, 0, 0.73));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.loginbody{
+    background-image: url("https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+input[type="text"], input[type="password"] {
+    display: block; 
+    margin: 10px 0; 
+    padding: 10px; 
+    font-size: 16px; 
+    background-color: #f9f9f9; 
+    border: none; 
+    border-radius: 5px; 
+    width: 100%;
+}
+.container {
+    width: 32%; 
+    margin: auto; 
+    padding: 40px; 
+    text-align: center;
+    float: right;
+}
+label[for="city"] {
+    font-size: 25px; 
+}
+input[type="submit"] {
+    font-size: 16px; 
+    padding: 10px 20px;
+    background-color: #00008B; 
+    color: white; 
+    border-radius: 10px; 
+    border: none; 
+    cursor: pointer; 
+}
+label{
+   font-family:cursive;
+   font-weight:300;
+}
+
+#city {
+    width: 30%; 
+    height: 40px; 
+    font-size: 18px; 
+    text-align: center; 
+    font-size: 15px;
+    margin: auto; 
+    padding: 10px 20px;
+    align-items: center;
+}
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 110px;
+    margin-top: 10px;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+nav {
+   
+   text-align: right;
+  
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.school-container {
+    width: 40%; 
+    margin: 20px; 
+    border-color: white;
+   border-radius: 10px;
+}
+
+.school-container-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.school-container img {
+    width: 220%;
+    height: 240px;
+    object-fit: cover;
+    justify-content: center;
+}
+
+
+.school-container h3 {
+    margin: 10px 0;
+    white-space: nowrap;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 24px; 
+}
+
+.school-container a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+.rating-container {
+    display: flex; 
+    float: right;
+    margin-right: 10px;
+    align-self: left; 
+    padding-top: 8px;
+}
+.rating-container i{
+    color: #ffd700; 
+    margin-right: 5px; 
+}
+.rating-container .fa-star{
+    color: #ddddeb;
+}
+.rating-container .fa-star.checked{
+    color: #f2d324;
+    font-size: 25px;
+}
+
+.search-form {
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-form input[type="submit"] {
+    background-color: rgba(214, 26, 12, 0.5); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-form input[type="submit"]:hover {
+    background-color: black;
+}
+
+#search-form-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    top: 80px;
+    margin-top: 20px; 
+    background-color: rgba(12, 5, 209, 0.3);
+    padding: 0px; 
+    border-radius: 50px; 
+}
+.school-box {
+    width: 30%;
+    background-color: white;
+    border: 2px solid #000;
+    padding: 25px;
+    margin: 10px;
+}
+
+a.visit-link {
+    font-size: 18px; 
+    text-decoration: none; 
+    color: #00008B; 
+    padding: 8px 10px;
+    font-weight: bold;
+    border: 2px solid #00008B;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-in-out; 
+    margin-bottom: 200px;
+}
+
+a.visit-link:hover {
+    background-color: #00008B; 
+    color: white;
+}
+
+.input-field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    }
+    
+.form-group1{
+    align-self: center;
+    margin-top: auto;
+    }
+
+.form-group label {
+    width: 30%;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+.form-container1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container1 input, .form-container1 label {
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.b2{
+   position: relative;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.label-inline {
+    float: left;
+    width: 80px; 
+    text-align: left; 
+}
+
+
+.white-box {
+    background-color: rgba(228, 228, 232, 0.852);
+    position: absolute;
+    top: 160px; 
+    left: 80;
+    right: 80;
+    bottom: 80;
+    padding: 5px;
+    overflow: auto;
+    animation: fadeIn 4s;
+    border-radius: 60px;
+}
+.white-box-2 {
+    background-color: rgba(228, 228, 232, 0.852);
+    position: absolute;
+    top: 160px; 
+    left: 80;
+    right: 80;
+    bottom: 80;
+    padding: 0px;
+    overflow: auto;
+    animation: fadeIn 2s;
+    border-radius: 60px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.top {
+   position: fixed;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+#login-btn:hover, #signup-btn:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.1);
+   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+   cursor: pointer;
+  }
+  
+p{
+  font-size: 22px;
+  text-align: left !important;
+}
+
+.thirdp{
+   align-self: flex-start;
+}
+.aboutus
+{
+    top: 100px;
+    padding: 10;
+    margin-bottom: 20px;
+}
+.background-image-container {
+   position:static;
+    height: 200%;
+    width: 480px;
+    background-size:cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 2px;
+}
+.background-image-container2 {
+    position:static;
+     height: 200%;
+     width: 380px;
+     background-size:cover;
+     text-align: center;
+     padding: 0px;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-bottom: 10px;
+ }
+
+ textarea#message {
+    height: 200px; 
+    width: 300px;
+    }
+
+.form-group1 button {
+    background-color: blue;
+    color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+    
+.form-group1 button:hover {
+        background-color: white;
+        color: black;
+    }
+ .form-and-images-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+.left-image {
+        width: 30%;
+        height: 100%;
+        position: relative;
+        align-self: flex-start;
+    }
+    
+.right-image {
+        width: 30%;
+        height: 100%;
+        position: relative;
+        align-self: flex-end;
+    }
+    
+.text-overlay {
+        display: none; 
+        transition: all 5.0s ease-in-out;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 10px;
+        border: 1px solid black;
+      }
+      
+.school-container:hover + .text-overlay {
+        display: block; 
+      }
+      
+#avgstar{
+    text-align: right;
+} 
+
+.yellow {
+    color: #ffd700;
+}
